@@ -844,7 +844,7 @@ form input{
 
 
 .containers{
-    display: flex;
+    display: grid;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 0px;
