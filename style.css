@@ -16,10 +16,7 @@ ul{
     list-style: none;
 }
 
-a{
-    text-decoration: none;
-    color: #fff;
-}
+
 
 h1,h2{
     font-weight: 500;
@@ -60,6 +57,7 @@ nav{
 
 .navbar a{
     color: #fff;
+    text-decoration: none;
     padding: 30px;
 }
 
@@ -69,20 +67,13 @@ nav{
     
 }
 
-.navbar  ul li a:hover{
-    border: 2px solid rgb(77, 75, 75);
+.navbar  li :hover{
+    border: 1px solid rgb(77, 75, 75);
     background: rgb(77, 75, 75);
 }
 
-.lens{
-    padding: 5px;
-}
 
 
-
-input{
-    outline: 1px solid #fff;
-}
 
 
 /* sectionsssssssssss */
@@ -604,7 +595,7 @@ form input{
               background: linear-gradient(black);
               color: #fff;
               width: 100vw;
-              height: 25vh; 
+              height: 30vh; 
               margin:0px 0px;
           }
   
