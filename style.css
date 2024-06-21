@@ -12,8 +12,13 @@ body{
 }
 
 
-ul{
+ul li {
     list-style: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 
@@ -39,6 +44,7 @@ img{
 nav{
     padding-left: 30px;
     margin-left: 40px;
+    padding-bottom: 25px;
 }
 #navbar{
     display: flex;
